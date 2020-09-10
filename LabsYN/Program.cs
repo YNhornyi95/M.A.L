@@ -7,7 +7,7 @@ namespace LabsYN
         static void Main(string[] args)
         {
             Console.WriteLine("Вассяяя!");
-            Console.WriteLine("UUUgggiiin!");
+            Console.WriteLine("UUUggiin!");
 
         }
     }
