@@ -27,7 +27,6 @@ namespace LabsYN
             do
             {
                 Console.ForegroundColor = ConsoleColor.White;
-
                 Console.WriteLine("Enter your guess: ");
                 Guess_number = Convert.ToInt32(Console.ReadLine());
 
@@ -36,21 +35,17 @@ namespace LabsYN
                     Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.WriteLine("Too low!!!");
                 }
-
                 else if (Guess_number > 55)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Too high!!!");
                 }
-
                 else
                 {
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine(Guess_number + " is right! Congratulations.");
                 }
-
             } while (Guess_number != 55);
-
         }
     }
 }
